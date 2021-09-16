@@ -8,6 +8,7 @@ public class CalcVdovinA
       public static Scanner userInputNumber = new Scanner(System.in);
       public static char calcOperationUser;
       public static int resultOperation;
+	
 	public static void main(String[] args) {
 
             numberOne = GetUserNumber();
