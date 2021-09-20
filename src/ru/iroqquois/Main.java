@@ -25,31 +25,42 @@ public class Main {
             if (result != null) {
                 firstNumber = result;
             } else {
-                System.out.print("Input a first number: ");
+                System.out.print("Введите первое число: ");
                 firstNumber = in.nextInt();
             }
 
-            System.out.print("Input a second number: ");
+            System.out.print("Введите второе число: ");
             Integer secondNumber = in.nextInt();
 
-            System.out.print("Input operation (+, -, *, /): ");
+            System.out.print("Введите операцию (+, -, *, /): ");
             String operation = in.next();
 
-            switch (operation) {
-                case "+":
-                    result = firstNumber + secondNumber;
-                    break;
-                case "-":
-                    result = firstNumber - secondNumber;
-                    break;
-                case "*":
-                    result = firstNumber * secondNumber;
-                    break;
-                case "/":
-                    result = firstNumber / secondNumber;
-                    break;
-                default:
-                    throw new IllegalStateException("Неверный оператор: " + operation);
+            try {
+                switch (operation) {
+                    case "+":
+                        result = firstNumber + secondNumber;
+                        break;
+                    case "-":
+                        result = firstNumber - secondNumber;
+                        break;
+                    case "*":
+                        result = firstNumber * secondNumber;
+                        break;
+                    case "/":
+
+                        try {
+                            result = firstNumber / secondNumber;
+                        } catch (ArithmeticException e) {
+                            e.printStackTrace();
+                            System.out.println("Нельзя делить на ноль");
+                        }
+
+                        break;
+                    default:
+                        throw new IllegalStateException("Неверный оператор: " + operation);
+                }
+            } catch (IllegalStateException e) {
+                System.out.println(e.getMessage());
             }
 
             while (true) {
@@ -66,7 +77,6 @@ public class Main {
                     System.exit(0);
                 } else {
                     System.out.println("Неверный ввод. Повторите");
-                    continue;
                 }
             }
         }
