@@ -10,6 +10,7 @@ import java.util.Arrays;
 
 /**
  * Задача 2
+ * ref: https://docs.google.com/document/d/1ejeD-30QkFhH6sOZsZgbv3K90qvZPdxtMPi6YpROtEs/edit
  */
 public class ReversedArray {
 

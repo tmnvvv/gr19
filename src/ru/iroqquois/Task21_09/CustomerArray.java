@@ -13,6 +13,7 @@ import java.util.Arrays;
 /**
  * Задача 1
  * Класс для реализаций различных действий с массивом
+ * ref: https://docs.google.com/document/d/1ejeD-30QkFhH6sOZsZgbv3K90qvZPdxtMPi6YpROtEs/edit
  */
 public class CustomerArray {
     private final Integer[] arrayOfNumbers;

@@ -8,6 +8,7 @@ package ru.iroqquois.Task21_09;
 
 /**
  * Задача 3
+ * ref https://docs.google.com/document/d/1ejeD-30QkFhH6sOZsZgbv3K90qvZPdxtMPi6YpROtEs/edit
  */
 public class UserArray {
 
