@@ -14,19 +14,13 @@ import java.util.Set;
 public class Task24_09 {
     public static void main(String[] args) {
         Integer[] arrayOfInts = new Integer[6];
-        ArrayList<Integer> arrayOfIntegers = new ArrayList<>();
 
-        arrayOfInts[0] = 1;
-        arrayOfInts[1] = 2;
-        arrayOfInts[2] = 4;
-        arrayOfInts[3] = 7;
-        arrayOfInts[4] = 24;
-        arrayOfInts[5] = 0;
+        for (int i = 0; i < arrayOfInts.length; i++) { // генерация рандомных чисел от -15 до 15
+            arrayOfInts[i] = (int) Math.round((Math.random() * 30) - 15);
+        }
 
         Set<Integer> mySet = new HashSet<Integer>();
         Collections.addAll(mySet, arrayOfInts);
-
-        System.out.println(mySet.size());
 
         if (arrayOfInts.length > mySet.size()) {
             System.out.println("В массиве есть дубликаты");
