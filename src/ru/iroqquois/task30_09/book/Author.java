@@ -9,6 +9,7 @@ package ru.rudenko.task30_09.book;
 public class Author {
     private final String author;
 
+
     public Author(String author) {
         this.author = author;
     }

@@ -12,14 +12,14 @@ public class Book {
     private Author author;
 
     /**
-     * @param title
-     * @param content
-     * @param author
+     * @param title   Название книги
+     * @param content Контент книги
+     * @param author  Автор книги
      */
-    public Book(Title title, Content content, Author author) {
-        this.title = title;
-        this.content = content;
-        this.author = author;
+    public Book(String title, String content, String author) {
+        this.title = new Title(title);
+        this.content = new Content(content);
+        this.author = new Author(author);
     }
 
     /**
