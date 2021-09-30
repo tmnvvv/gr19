@@ -1,4 +1,4 @@
-package ru.iroqquois;
+package ru.rudenko;
 
 /*
  * @created 23/09/2021

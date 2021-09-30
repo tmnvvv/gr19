@@ -1,7 +1,5 @@
-package ru.iroqquois;
+package ru.rudenko;
 
-
-import java.util.Arrays;
 
 /*
  * @created 21/09/2021

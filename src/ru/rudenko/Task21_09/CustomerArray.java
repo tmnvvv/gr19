@@ -1,12 +1,10 @@
-package ru.iroqquois.Task21_09;
+package ru.rudenko.Task21_09;
 
 /*
  * @created 21/9/2021
  * @project Task 21.09
  * @author Rudenko, Latushkin
  */
-
-import ru.iroqquois.Task21_09.Task21_09;
 
 import java.util.Arrays;
 

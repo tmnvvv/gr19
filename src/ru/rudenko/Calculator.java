@@ -1,4 +1,4 @@
-package ru.iroqquois;
+package ru.rudenko;
 
 
 import java.io.IOException;
