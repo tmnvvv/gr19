@@ -7,18 +7,18 @@ package ru.rudenko.task30_09.classroom;
  */
 public class Pupil {
     public void study() {
-
+        System.out.println("pupil study");
     }
 
     public void read() {
-
+        System.out.println("pupil read");
     }
 
     public void write() {
-
+        System.out.println("pupil write");
     }
 
     public void relax() {
-
+        System.out.println("pupil relax");
     }
 }
