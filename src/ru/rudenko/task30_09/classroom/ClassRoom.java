@@ -5,6 +5,10 @@ package ru.rudenko.task30_09.classroom;
  * @created 30/09/2021
  * @project ClassRoom
  */
+
+/**
+ * ref: https://docs.google.com/document/d/1X8c_KuZ8hvAo1krStu9UOi05icX950ZF1ETNYVOUojM/edit
+ */
 public class ClassRoom {
     private Pupil pupil;
     private Pupil excellentPupil;

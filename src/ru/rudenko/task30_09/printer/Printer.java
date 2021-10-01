@@ -7,6 +7,10 @@ import java.util.Random;
  * @created 30/09/2021
  * @project Printer
  */
+
+/**
+ * ref: https://docs.google.com/document/d/1X8c_KuZ8hvAo1krStu9UOi05icX950ZF1ETNYVOUojM/edit
+ */
 public class Printer {
     protected static final String ANSI_RESET = "\u001B[0m";
     protected static final String ANSI_GREEN = "\u001B[32m";
@@ -23,6 +27,11 @@ public class Printer {
         oneMorePrinter.print("Extends Printer");
     }
 
+    /**
+     * Метод выводит переданное сообщение
+     *
+     * @param arg Аргумент для вывода
+     */
     public void print(String arg) {
         System.out.println(arg);
     }
