@@ -6,6 +6,8 @@ package ru.rudenko.task30_09;
  * @project Rectangle
  */
 
+import java.util.Scanner;
+
 /**
  * Класс для работы с прямоугольником
  * ref: https://docs.google.com/document/d/1ViQ4jsXUTtBz22MzxXpsnSmTBSNjlH8tfJP-_RE7C3Y/edit
