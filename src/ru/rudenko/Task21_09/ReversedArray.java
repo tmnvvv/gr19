@@ -1,4 +1,4 @@
-package ru.rudenko.Task21_09;
+package ru.rudenko.task21_09;
 
 import java.util.Arrays;
 
