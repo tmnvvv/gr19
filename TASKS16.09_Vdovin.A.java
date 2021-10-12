@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*
+ * @created 12/10/2021
+ * @Taks №1
+ * @author Vdovin
+ */
 public class CalcVdovinA
 {
       public static int UserNumber;
